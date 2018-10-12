@@ -1,0 +1,24 @@
+{
+    "name": "nzt404/boxnotes",
+    "description": "Training project. Notebook",
+    "type": "project",
+    "require": {
+        "filp/whoops": "^2.2",
+        "twig/twig": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Boxnotes\\": "app/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "NZT404",
+            "email": "nzt404sitnikov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
